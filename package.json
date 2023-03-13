@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npx tsc",
     "format": "npx prisma format",
-    "migrate": "npx prisma migrate"
+    "migrate": "npx prisma migrate",
+    "seed": "npx ts-node src/seed.ts"
   },
   "author": "",
   "license": "MIT",
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.15.1",
-    "prisma": "^4.11.0"
+    "prisma": "^4.11.0",
+    "ts-node": "^10.9.1"
   }
 }
